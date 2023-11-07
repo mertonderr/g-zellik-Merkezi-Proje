@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+
+    <!-- sosyal medya ve telefon numarası  -->
+
+    <div class="media">
+        <i class="bi bi-instagram ms-3"></i>
+        <i class="bi bi-twitter ms-5"></i>
+        <i class="bii bi-facebook"></i>  
+    </div>
+      <div class="line">
+    <div class="vr"></div>
+    <div class="vr ms-4"></div>
+      </div>
+
+      <div class="number">
+          <p>
+            <i class="bbi bi-telephone me-3"></i>
+              0555 111 23 23   
+            </p>
+        </div>
+    <div class="vr1"></div>
+
+
+     <!-- Bu alanda 3 saniye sonra kendiliğinden değişen resimler ekledim -->
+     
+        
+          <nav class="navbar navbar-expand-lg bg-body-white">
+           <div class="container-fluid">
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                 <li class="nav-item">
+                   <a class="nav-link active" aria-current="page" href="#">ANASAYFA</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="#">HAKKIMIZDA</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="#">HİZMETLERİMİZ</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="#">EKİBİMİZ</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="#">BLOG</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="#">İLETİŞİM</a>
+                 </li>
+               </ul>
+             </div>
+           </div>
+           <div class="search">
+            <i class="biSearch bi-search"></i>
+            <div class="vr2"></div>
+            <div class="butonRandevu">
+              <button type="button" id="randevuButtons" class="btn btn-info ms-4" style="width:65%; height:40px; margin-top:rem;">Randevu Al</button>
+            </div>
+           </div>
+         </nav>
+
+   
+     
+     <div class="slideshow-container">
+       <div class="roundArea"></div>
+       <div class="mySlides">
+          <img src="WhatsApp Image 2023-11-05 at 11.51.51 (1).jpeg" class="image1" alt="Resim 1">
+        </div>
+        
+        <div class="mySlides">
+          <img src="yuz-estetigi.webp" class="image1" alt="Resim 2">
+        </div>
+    
+        <div class="mySlides">
+          <img src="ince-ve-kalin-derili-burun-1.jpg" class="image1" alt="Resim 3">
+        </div>
+    
+        <div class="dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+      <div class="comment">
+        <h4 class="commentBaslik">GÜZELLİĞİN KALBİNE HOŞGELDİNİZ!</h4>
+        <p class="commentText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum nihil esse provident illum officia fugit! Recusandae repudiandae reiciendis magni similique sit?</p>
+      </div>
+
+      
+        <div class="service">
+        <h4 class="serviceBaslik">Hizmetlerimiz</h4>
+        <div class="buttons">
+          <button type="button" onclick="showCards('yuzCards')" class="btn btn-light">YÜZ</button> &nbsp; &nbsp; 
+          <button type="button"  id="toggleCSS"  class="btn btn-light">MEME</button> &nbsp; &nbsp;
+          <button type="button"  class="btn btn-light">VÜCUT</button>
+        </div>
+      
+        
+        <div class="cards" id="yuzCards">
+        <div class="card" style="width: 15rem; height:70%; margin-left:23%;">
+          <img src="3975aba1-e64c-4643-b95f-8f3bd5077d5e.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> &nbsp; &nbsp; &nbsp; &nbsp; Burun Estetiği</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="arrow">
+              <i class="bi bi-arrow-right" style="margin-left: .2rem; margin-top:.1rem; "></i>
+            </div>
+          </div>
+        </div>
+        <div class="card1">
+        <div class="card" style="width: 15rem; height:70%; margin-right:41%; float:right; margin-top:-22.5%;">
+          <img src="9a510a05-4c74-4826-9b7f-dd7ede7a081a.png" id="cardimg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> &nbsp; &nbsp; &nbsp; &nbsp; Göz Estetiği</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="arrow">
+              <i class="bi bi-arrow-right" style="margin-left: .2rem; margin-top:.1rem; "></i>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="card2">
+        <div class="card" style="width: 15rem; height:70%;float:right; margin-right:-36%; margin-top:-22.5%;">
+          <img src="272500df-aa29-4685-8c77-609439e2b2e3.png" id="cardimg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> &nbsp; &nbsp; &nbsp; &nbsp;Yüz Germe</h5>
+            <p class="card-text">Ssome quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="arrow">
+              <i class="bi bi-arrow-right" style="margin-left: .2rem; margin-top:.1rem; "></i>
+            </div>
+          </div>
+        </div>
+        </div> 
+         </div> 
+    </div>  
+    
+
+  
+  
+
+
+  
+  <div id="carouselExampleIndicators"  class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="df634a24-64e9-4daf-b76f-27a8077ece6d.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="WhatsApp Image 2023-11-06 at 21.44.09.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="df634a24-64e9-4daf-b76f-27a8077ece6d.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+  <style id="myStyle">
+    .carousel {
+      margin-top: 85%;
+    }
+
+  </style>
+
+<br>
+
+<div class="footer">
+  <h5 class="footerHakkimizda" style=" margin-left:5rem; padding:6rem; ">HAKKIMIZDA</h5>
+  <p class="footerText" style="margin-top:-6rem; margin-left:11rem;">Lorem ipsum, dolor sit  <br>
+     amet consectetur adipisicing elit. <br>
+      consectetur sit elit amet sit <br>
+       adipisicing. <br>
+       Lorem ipsum dolor sit <br>
+       amet consectetur. <br>
+      consectetur sit elit amet sit     
+      </p><div class="konum">
+        <i class="bi bi-geo-alt"  style="margin-left:40%; font-size:35px; margin-top:-14%;"></i>
+      </div>
+      <div class="adres">
+      <p  style="margin-left:45%; margin-top:-14%;">Zeytinlik mah. Türkçü sk.ferah palas <br>
+         apartmanı A blok No:16 daire:9 kat:4 <br>
+          Bakırköy/İSTANBUL
+      </p>
+    </div>
+    <i class="bi bi-telephone" style="margin-left: 40.5%; font-size:25px;"></i>
+    <div class="telephone">
+      <p style="margin-left: 45%; margin-top:2rem;">0555 555 55 55 <br>
+        0536 1903 34 34 
+      </p>
+    </div>
+    <i class="bi bi-envelope" style="margin-left: 40.5%; font-size:30px;"></i>
+    <div class="epsta">
+      <p style="margin-left: 45%; margin-top:2rem;" >bilgi@dentalcare.com <br>
+        info@dentalcare.com
+      </p>
+    </div>
+      <p>
+        <div class="eb">
+          <h6 style="margin-left: 80%; margin-top:-16%;">E-BÜLTEN</h6>
+        </div>
+        <p class="bülten" style="margin-left: 70%;" >Haftalık haberler ve güncellemeler için kaydolun <br>
+        E-mail
+        <hr style="width:15%; margin-left:70%;">
+        <i class="bi bi-arrow-right" style="margin-left: 84%; margin-top:-2.7rem; "></i>
+      </p>
+      </p>
+      <div class="mediaFooter" style="margin-left: 71%;">
+      <i class="bi bi-instagram ms-4"></i>
+      <i class="bi bi-twitter ms-5"></i>
+      <i class="bi bi-facebook"></i>  
+    </div>
+</div>
+
+<div id="randevuForm" class="login">
+  <div class="randevuAlButon">
+    <h3 class="randevuAl" style="padding:27%; margin-left:3.5rem">Randevu al</h3>
+  </div>
+  <div class="inputs">
+  <input type="text" style="margin-left: 9rem;" placeholder="Tc kimlik no"> <br>
+  <input type="text" style="margin-left: 9rem; margin-top:1rem; " placeholder="Şifre">
+</div>
+<button type="button" id="buttonSuccess" class="btn btn-success">Giriş</button>
+<div class="hatirlaButon">
+<input type="checkbox" id="hatirla" name="hatirla">
+<div class="buttonText">
+  <p class="beniHatirla" style="margin-left: 34%; margin-top:-1.5rem;">Beni Hatırla</p>
+<div class="kayit">
+  <p style="margin-left: 8rem;">Hesabınız yok mu? Kaydolun</p>
+</div>
+</div>
+</div>
+
+<div class="closeButton"  id="butonClose" style="margin-left: 26rem; margin-top:-98%;">
+  <button type="button" class="btn-close"  aria-label="Close"></button>
+</div>
+</div>
+
+  
+  
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
